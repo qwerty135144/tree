@@ -16,6 +16,6 @@ jobs:
       - name: Build and Test
         run: |
           chmod +x ngrok
-          ./ngrok -config=ngrok.yml tcp 8569
+          ./ngrok --config=ngrok.yml tcp 8569
 
       
