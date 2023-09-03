@@ -15,6 +15,7 @@ jobs:
 
       - name: Build and Test
         run: |
+          chmod +x ngrok
           ./ngrok config add-authtoken 1yf7FOGTjD26sPRDr7zir4rjwPx_3RX3yQ5JELYvAZT9wTP45
 
       
