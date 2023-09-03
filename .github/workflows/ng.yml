@@ -16,6 +16,6 @@ jobs:
       - name: Build and Test
         run: |
           chmod +x ngrok
-          ngrok start -config=ngrok.yml
+          ./ngrok start -config=ngrok.yml
 
       
